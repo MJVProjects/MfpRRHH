@@ -5,8 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>MFP Recursos Humanos</title>
     <link rel="stylesheet" href="css/style.css">
+    <!-- Boostrap -->
     <link href="libs/bootstrap/css/bootstrap.min.css" rel="stylesheet" >
+    <!-- Vision Mision -->
     <link rel="stylesheet" href="css/mv.css">
+    <!-- Carrucel -->
+    <link rel="stylesheet" href="css/carousel.css">
+    <link rel="stylesheet" href="css/carousel.rtl.css">
+
+
   </head>
   <body>
      <?php include_once 'views/header.html' ?>
