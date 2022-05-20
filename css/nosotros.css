@@ -1,33 +1,39 @@
-#centrarr{
-   display: grid;
-   grid-template-columns: repeat(7,10% 20% 10% 20% 10% 20% 10%);
-}
 
-
-.cv{
-    border: 1px solid black;
-}
-.cv img{
-
-    /* background: red; */
-    margin-top: 10px;
-}
 .tit{
     margin-left: 30px;
     width: 400px;
     text-align: center;
     color: #253A53;
 }
+#orgin{
+    /* background: red; */
+    width: 250px;
+    height: auto;
+    margin-left: 20px;
+    border: 1px solid #0B384F;
+    padding: 0;
+    box-shadow: 3px 5px 10px #0B384F;
+}
+#orgin h6{
+    color: #0B384F;
+    margin-top: 10px;
+  
 
+    padding: 0;
+}
 
+#icono{
+    font-size: 200px;
+    color: #0B384F;
+    text-align: center;
+    padding-top: 10px;
+    
+}
 
-
-@media (max-width: 600px) {
-    .eliminar {
-      display: none;
-    }
-    #centrar{
-        display: grid;
-        grid-template-rows: repeat(3,100%);
-    }
-  }
+#icono:hover{
+    font-size: 250px;
+}
+#orgin:hover{
+    width: 300px;
+    height: auto;
+}
