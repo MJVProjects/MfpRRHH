@@ -1,0 +1,34 @@
+/* colocar fixed-top  para anclar el navbar */
+.nav-principal{
+    margin: 0;
+    height: auto;
+}
+
+.nav-conten{
+    margin-top: 0;   
+}
+
+.nav-pro {
+    margin-right: 20px;
+}
+.nav-pro li{
+    margin: 10px;
+    height: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;   
+
+}
+
+.nav-pro li a{
+    text-decoration: none;
+    color: #253A53;
+    padding: 10px;
+}
+
+.nav-pro li:hover,.nav-pro li a:hover{
+ background: #253A53;
+ color: #D5DCEA;
+}
+
+.nav-pro li a:hover{
+    color: #D5DCEA;
+}
