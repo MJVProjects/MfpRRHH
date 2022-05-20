@@ -4,7 +4,12 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>MFP Recursos Humanos</title>
-    <!-- estilos globales comanxxxxxxxxxx -->
+<<<<<<< HEAD
+    <!-- estilos globales -->
+=======
+    <!-- cambiando -->
+    <!-- estilos globales -->
+>>>>>>> origin
     <link rel="stylesheet" href="css/style.css">
     <!-- Boostrap -->
     <link href="libs/bootstrap/css/bootstrap.min.css" rel="stylesheet" >
