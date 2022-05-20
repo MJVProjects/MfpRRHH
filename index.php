@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="css/carousel.css">
     <link rel="stylesheet" href="css/carousel.rtl.css">
     <!-- nosotros -->
-    <link rel="stylesheet" href="css/nosotros.css">
+    <link rel="stylesheet" href="css/nosotros.css"> 
 
 
   </head>
