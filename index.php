@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>MFP Recursos Humanos</title>
+    <!-- cambiando -->
     <!-- estilos globales -->
     <link rel="stylesheet" href="css/style.css">
     <!-- Boostrap -->
