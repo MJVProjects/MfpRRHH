@@ -21,8 +21,14 @@
 
     padding: 0;
 }
+.unico{
+    margin-top: 30px;
+}
+.unico2{
+    margin-top: 30px;
+}
 
-#icono{
+/* #icono{
     font-size: 200px;
     color: #0B384F;
     text-align: center;
@@ -32,8 +38,17 @@
 
 #icono:hover{
     font-size: 250px;
-}
-#orgin:hover{
+} */
+/* #orgin:hover{
     width: 300px;
     height: auto;
+} */
+#orgin img{
+    width: 150px;
+    height: auto;
+    overflow: hidden;
+    padding-top: 10px;
+}
+.img-edit{
+   padding-top:20px ;
 }
