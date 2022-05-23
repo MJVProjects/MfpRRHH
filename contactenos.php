@@ -23,6 +23,7 @@
     include_once 'views/header.html';
     include_once 'views/contactanos.html';
     include_once 'views/footer.html';
+    include_once 'views/whatsapp.html'
     ?>   
   </body>
   <script src="libs/bootstrap/js/bootstrap.min.js"></script>
