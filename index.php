@@ -29,18 +29,13 @@
 
       // <!-- FOOTER -->
 
-    include_once 'views/footer.html';
-       
     include_once 'views/whatsapp.html';
+
+    include_once 'views/footer.html';
     
-       ?>
-
-
-
-      </main>
+    ?>
+    </main>
     <script src="libs/bootstrap/js/bootstrap.min.js"></script>
-
     <script src="js/header.js"></script>
-
   </body>
 </html>
