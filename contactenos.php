@@ -24,6 +24,7 @@
     include_once 'views/contactanos.html';
     include_once 'views/footer.html';
     include_once 'views/whatsapp.html';
+    include("correo.php");
     ?>   
   </body>
   <script src="libs/bootstrap/js/bootstrap.min.js"></script>

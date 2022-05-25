@@ -32,51 +32,52 @@
 </head>
 <body>
    <div class="container-fluid cont23">
-        <div class="container ">
+        <form method="post" class="container">
             <div class="row justify-content-end">
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-xl-6 col-xxl-4" >
                    
-                       <div  class="row bg-white mt-4 p-3  rounded-4 justify-content-evenly">
-                            <h2 class="contac-hs mt-4">!Contáctanos Hoy¡</h2>
-                            <hr>
-                            <p class="fs-6 text-start">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, eveniet. Quasi quos eveniet aperiam laboriosam blanditiis fugiat explicabo, modi vero.
-                            </p>
-                            <input class="form-control mb-2" type="text" name="txtnombre" id="txtnombre" placeholder="Nombre Completo">
-                            <input class="form-control mb-2" type="text" name="txtempresa" id="txtempresa" placeholder="Empresa">
-                            <input class="form-control mb-2" type="text" name="txttelefon" id="txttelefon" placeholder="Número de Celular">
-                            <input class="form-control mb-2" type="email" name="txtcorreo" id="txtcorreo" placeholder="Dirección de Correo">
-                            <label class="sub"><b>De que Lugar nos escribes</b> </label>
-                            <input class="form-control mb-2" type="text" name="txtlugar" id="txtlugar" placeholder="Lima">
-                            <textarea class="form-control mb-2" name="txtmensaje" id="txtmensaje" cols="30" rows="5" placeholder="Dejanos un mensaje sobre tu requerimiento o consulta"></textarea>
-                            <label for="" class="sub"><b>¿Por qué medio preferirías que te contactemos?</b></label>
-                            <div class="row row-cols-6">
-                                <div class="col form-check me-5">
-                                    <input class="form-check-input" type="radio" name="whatsapp" id="whatsapp">
-                                    <label class="form-check-label " for="flexRadioDefault1">
-                                      WhatsApp
-                                    </label>
-                                </div>
-                                <div class="col form-check me-5" >
-                                    <input class="form-check-input" type="radio" name="Correo" id="Correo">
-                                    <label class="form-check-label" for="flexRadioDefault1">
-                                      Correo
-                                    </label>
-                                </div>
-                                <div class="col form-check me-5">
-                                    <input class="form-check-input" type="radio" name="Llamada" id="Llamada">
-                                    <label class="form-check-label" for="flexRadioDefault1">
-                                      Llamada
-                                    </label>
-                                </div>
+                    <div  class="row bg-white mt-4 p-3  rounded-4 justify-content-evenly">
+                        <h2 class="contac-hs mt-4">!Contáctanos Hoy¡</h2>
+                        <hr>
+                        <p class="fs-6 text-start">
+                            Cuéntanos sobre tu negocio y los requerimeintos que tengas y uno de nuestros
+                            consultores se pondrá en contacto contigo para atender tu solicitud.     
+                        </p>
+                        <input class="form-control mb-2" type="text" name="txtnombre" id="txtnombre" placeholder="Nombre Completo" required>
+                        <input class="form-control mb-2" type="text" name="txtempresa" id="txtempresa" placeholder="Empresa" required>
+                        <input class="form-control mb-2" type="text" name="txttelefon" id="txttelefon" placeholder="Número de Celular" required>
+                        <input class="form-control mb-2" type="email" name="txtcorreo" id="txtcorreo" placeholder="Dirección de Correo" required>
+                        <label class="sub"><b>¿De qué lugar nos escribes?</b> </label>
+                        <input class="form-control mb-2" type="text" name="txtlugar" id="txtlugar" placeholder="Lima" required>
+                        <textarea class="form-control mb-2" name="txtmensaje" id="txtmensaje" cols="30" rows="5" placeholder="Dejanos un mensaje sobre tu requerimiento o consulta" required></textarea>
+                        <label for="" class="sub"><b>¿Por qué medio preferirías que te contactemos?</b></label>
+                        <div class="row row-cols-6">
+                            <div class="col form-check me-5">
+                                <input class="form-check-input" type="radio" name="whatsapp" id="whatsapp" checked>
+                                <label class="form-check-label " for="flexRadioDefault1">
+                                    WhatsApp
+                                </label>
                             </div>
-                           
-                            <div class="col-12 text-start">
-                                <button class="btn   rounded-pill mt-2 mb-4 ps-5 pe-5"> Enviar </button>
+                            <div class="col form-check me-5" >
+                                <input class="form-check-input" type="radio" name="Correo" id="Correo">
+                                <label class="form-check-label" for="flexRadioDefault2">
+                                    Correo
+                                </label>
                             </div>
-                       </div>
+                            <div class="col form-check me-5">
+                                <input class="form-check-input" type="radio" name="Llamada" id="Llamada">
+                                <label class="form-check-label" for="flexRadioDefault3">
+                                    Llamada
+                                </label>
+                            </div>
+                        </div>
+                        
+                        <div class="col-12 text-start">
+                            <input type="submit" name="enviar">
+                        </div>
+                    </div>
                     
                 </div>
             </div>
-        </div>
+        </form>
         
