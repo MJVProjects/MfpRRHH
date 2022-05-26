@@ -10,8 +10,8 @@
             $correo=$_POST['txtcorreo'];
             $lugar=$_POST['txtlugar'];
             $mensaje=$_POST['txtmensaje'];
-            $header="Enviado desde la pagina de MFP";
-            $msjcomplet="correo: ".$correo."\ntelefono: ".$telefono."\nEmpresa y Lugar: ".$empresa." y ".$lugar."\nMensaje: ".$mensaje."\nAtte: ".$nombre;
+            $header="Enviado desde la pagina contactos de MFP";
+            $msjcomplet="De: ".$nombre."\nCorreo: ".$correo."\nTelefono: ".$telefono."\nEmpresa y Lugar: ".$empresa." y ".$lugar."\nMensaje: ".$mensaje;
             mail($destino, $asunto, $msjcomplet, $header);
             echo "<script>alert('email enviado exitosamente!!')</script>";
             echo "<script>setTimeout(\"location.href='index.php'\",1000)</script>";
