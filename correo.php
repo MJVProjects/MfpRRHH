@@ -2,7 +2,7 @@
     if(isset($_POST['enviar'])){
         if(!empty($_POST['txtnombre']) && !empty($_POST['txtempresa']) && !empty($_POST['txttelefon'])
         && !empty($_POST['txtcorreo']) && !empty($_POST['txtlugar']) && !empty($_POST['txtmensaje'])){
-            $destino="ca_los01@hotmail.com";
+            $destino="carlozis689@gmail.com";
             $asunto="Quiero contactarme con ustedes";
             $nombre=$_POST['txtnombre'];
             $empresa=$_POST['txtempresa'];
