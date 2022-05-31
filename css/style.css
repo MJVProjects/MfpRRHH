@@ -1,0 +1,16 @@
+@font-face {
+    font-family: 'Lato-Bold';
+    src: url(./Fonts/Lato-Bold.ttf);
+  }
+  @font-face {
+    font-family: 'Inter-Regular';
+    src: url(./Fonts/Inter-Regular.ttf);
+  }
+
+  .titulos{
+    font-family: 'Lato-Bold';
+  }
+
+  .textos{
+      font-family: 'Inter-Regular';
+  }

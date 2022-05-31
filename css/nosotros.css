@@ -1,15 +1,24 @@
 
+@font-face {
+    font-family: 'Lato-Bold';
+    src: url(./Fonts/Lato-Bold.ttf);
+  }
+  @font-face {
+    font-family: 'Inter-Regular';
+    src: url(./Fonts/Inter-Regular.ttf);
+  }
 .tit{
     margin-left: 30px;
-    width: 400px;
+    width: 500px;
     text-align: center;
     color: #253A53;
+    font-family: 'Lato-Bold';
 }
 #orgin{
     /* background: red; */
-    width: 250px;
+    width: 300px;
     height: auto;
-    margin-left: 20px;
+    margin-left: 40px;
     border: 1px solid #0B384F;
     padding: 0;
     box-shadow: 3px 5px 10px #0B384F;
