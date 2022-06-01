@@ -2,7 +2,7 @@
     if(isset($_POST['enviar'])){
         if(!empty($_POST['txtnombre']) && !empty($_POST['txtempresa']) && !empty($_POST['txttelefon'])
         && !empty($_POST['txtcorreo']) && !empty($_POST['txtlugar']) && !empty($_POST['txtmensaje'])){
-            $destino="carlozis689@gmail.com";
+            $destino="mfp.recursos.humanos@gmail.com";
             $asunto="Quiero contactarme con ustedes";
             $nombre=$_POST['txtnombre'];
             $empresa=$_POST['txtempresa'];
@@ -10,7 +10,7 @@
             $correo=$_POST['txtcorreo'];
             $lugar=$_POST['txtlugar'];
             $mensaje=$_POST['txtmensaje'];
-            $header="Enviado desde la pagina contactos de MFP";
+            $header="Enviado desde la pagina web contactos de MFP";
             $msjcomplet="De: ".$nombre."\nCorreo: ".$correo."\nTelefono: ".$telefono."\nEmpresa y Lugar: ".$empresa." y ".$lugar."\nMensaje: ".$mensaje;
             mail($destino, $asunto, $msjcomplet, $header);
             echo "<script>alert('email enviado exitosamente!!')</script>";

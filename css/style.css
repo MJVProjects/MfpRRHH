@@ -9,8 +9,15 @@
 
   .titulos{
     font-family: 'Lato-Bold';
+    font-size:3rem;
   }
 
   .textos{
       font-family: 'Inter-Regular';
+      font-size: 1.3rem;
   }
+
+  .hov:hover{
+   color: cyan; 
+  }
+  
