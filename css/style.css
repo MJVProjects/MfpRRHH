@@ -11,6 +11,10 @@
     font-family: 'Lato-Bold';
     font-size:3rem;
   }
+  .titulos h1{
+    font-family: 'Lato-Bold';
+    font-size:3.35rem;
+  }
 
   .textos{
       font-family: 'Inter-Regular';
