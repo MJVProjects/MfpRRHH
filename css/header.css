@@ -32,3 +32,8 @@
 .nav-pro li a:hover{
     color: #D5DCEA;
 }
+
+.nav-pro{
+  display:flex;
+  margin-left: auto;
+}
