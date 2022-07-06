@@ -17,9 +17,7 @@
 -------------------------------------------------- */
 
 /* Carousel base class */
-.carousel {
-  /* margin-bottom: 4rem;ñ */
-}
+
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
   bottom:40%;
@@ -32,12 +30,13 @@
   font-size: 28px;
   font-family: 'Lato-Bold';
 }
-.boton{
+/* .boton{
   margin-left: 40%;
   background: white;
   border-radius: 25px;
   color: #253A53;
-}
+} */
+
 
 
 /* Declare heights because of positioning of img element */

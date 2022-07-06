@@ -10,6 +10,8 @@
 
 .nav-pro {
     margin-right: 20px;
+    margin-top: 0px;
+
 }
 .nav-pro li{
     margin: 10px;
@@ -33,7 +35,7 @@
     color: #D5DCEA;
 }
 
-.nav-pro{
-  display:flex;
-  margin-left: auto;
+.divc{
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
