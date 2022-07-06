@@ -10,10 +10,45 @@
     <!-- Carrucel -->
     <link rel="stylesheet" href="./css/carousel.css">
     <link rel="stylesheet" href="./css/carousel.rtl.css">
+
+    <style>
+      .imagen12{
+        background-image: url('./img/rrhh.jpg');
+        width: 100%;
+        height: 100vh;
+        background-size: cover;
+      }
+
+      .textop{
+
+        margin-right: 30px;
+      }
+
+      .botonp{
+        
+         background: #fff; 
+         font-size: 25px; 
+         border-radius: 30px;
+      }
+
+      @media (max-width: 600px) {
+        .imagen12{
+        
+        width: 100%;
+        height: 70vh;
+        background-size: cover;
+      }
+
+      .textop{
+
+    margin-right: 0px;
+    }
+  }
+    </style>
   </head>
-  <body>
+  <body class="imagen">
     
-    <div id="myCarousel" class="carousel slide m-0" data-bs-ride="carousel">
+    <!-- <div id="myCarousel" class="carousel slide m-0" data-bs-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
       <img  class="bd-placeholder-img" width="100%" height="100%"  src="./img/rrhh.jpg" alt="">
@@ -25,4 +60,16 @@
       </div>
     </div>
   </div>
+  </div> -->
+
+
+  <div class="container-fluid">
+    <div class="row ">
+      <div class="col-12 imagen12 d-flex justify-content-end align-items-center">
+        <h1 class="text-white textop text-center">SOLUCIONES PERSONALIZADAS AL <br> PROBLEMA DE RECURSOS HUMANOS<br>
+         <button type="button" class="btn text-black mt-3 botonp" >Consulta Gratuita</button>
+        </h1>
+       
+      </div>
+    </div>
   </div>

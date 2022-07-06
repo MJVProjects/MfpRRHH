@@ -14,6 +14,19 @@
     color: #253A53;
     font-family: 'Lato-Bold';
 }
+
+@media (max-width: 600px) {
+    .tit{
+        margin-left: 0px;
+        width:auto;
+        display: block;
+        text-align: center;
+        justify-content: center;
+        color: #253A53;
+        font-family: 'Lato-Bold';
+    }
+}
+
 #orgin{
     /* background: red; */
     width: 300px;
